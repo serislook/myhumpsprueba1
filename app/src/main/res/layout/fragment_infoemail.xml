@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.octavio.pruebauno.InfoemailFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/cogolloantiguo"
+        android:scaleType="centerCrop"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/almBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALMACENAR CEPA" />
+
+    <EditText
+        android:id="@+id/infEt"
+        android:visibility="gone"
+        android:hint="¿nombre cepa?"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/envBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR"
+        android:visibility="visible" />
+
+    <ImageView
+        android:src="@mipmap/cogolloantiguo"
+        android:scaleType="centerCrop"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
